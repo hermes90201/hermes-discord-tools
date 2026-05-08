@@ -1,0 +1,11 @@
+name: discord-tools
+version: "1.1.0"
+description: "Extra Discord tools for Hermes Agent — read messages by ID, fetch with human-readable timestamp ranges. Extends the built-in Discord capabilities."
+author: Hermes Agent Community
+homepage: https://github.com/hermes90201/hermes-discord-tools
+license: MIT
+min_hermes_version: "0.11.0"
+requires_env:
+  - DISCORD_BOT_TOKEN
+provides_tools:
+  - discord_read_message
