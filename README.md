@@ -76,15 +76,15 @@ hermes plugins list | grep discord-tools
 ### Fetch a message by ID
 
 ```
-Read message 1502111057177481377 from channel 1494428308413219057
+Read message 1494598174116421412 from channel 1503891246026679664
 ```
 
-The agent calls `discord_read_message(message_id="1502...", channel_id="1494...")`.
+The agent calls `discord_read_message(message_id="1494...", channel_id="1503...")`.
 
 ### Fetch with context for disambiguation
 
 ```
-Read message 1502111057177481377 with 3 messages of context
+Read message 1494598174116421412 with 3 messages of context
 ```
 
 Returns the target message plus 3 messages before and after — perfect for understanding conversation flow.
@@ -105,7 +105,7 @@ The plugin understands:
 ### Fetch recent messages
 
 ```
-Show the last 10 messages from channel 1497113266294620310
+Show the last 10 messages from channel 1481902301120369107
 ```
 
 ## Tool Schema
